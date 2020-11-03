@@ -1,24 +1,54 @@
-# README
+# データベースの設計
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## users テーブル
 
-Things you may want to cover:
+|   Column                  | Type  | Options   |
+|---------------------------|-------|-----------|
+|password                   |string |null: false|
+|email                      |string |null: false|
+|nickname                   |string |null: false|
 
-* Ruby version
+## js_page 
 
-* System dependencies
+|   Column                  | Type  | Options   |
+|---------------------------|-------|-----------|
+|name                       |string |null: false|
+|text                       |texe   |null: false|
 
-* Configuration
+## ruby_page
 
-* Database creation
+|   Column                  | Type  | Options   |
+|---------------------------|-------|-----------|
+|name                       |string |null: false|
+|text                       |texe   |null: false|
 
-* Database initialization
+## rails_page
 
-* How to run the test suite
+|   Column                  | Type  | Options   |
+|---------------------------|-------|-----------|
+|name                       |string |null: false|
+|text                       |texe   |null: false|
 
-* Services (job queues, cache servers, search engines, etc.)
+## python_page
 
-* Deployment instructions
+|   Column                  | Type  | Options   |
+|---------------------------|-------|-----------|
+|name                       |string |null: false|
+|text                       |texe   |null: false|
 
-* ...
+## HTML
+
+|   Column                  | Type  | Options   |
+|---------------------------|-------|-----------|
+|name                       |string |null: false|
+|text                       |texe   |null: false|
+
+## CSS
+
+|   Column                  | Type  | Options   |
+|---------------------------|-------|-----------|
+|name                       |string |null: false|
+|text                       |texe   |null: false|
+
+## may_page
+
