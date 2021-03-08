@@ -1,4 +1,7 @@
 class InspirationsController < ApplicationController
-def index
-  @inspirations = Inspiration.all
+
+  def index
+    @inspirations = Inspiration.all
+  end
+
 end
